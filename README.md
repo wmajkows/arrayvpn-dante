@@ -7,10 +7,9 @@ docker run -p 127.0.0.1:1088:1088 --cap-add=ALL -v /lib/modules:/lib/modules -v 
 ## Usage example
 
 ### SSH
-~/.ssh/config --
+~/.ssh/config
 Host host-behind-proxy
-&nbsp;&nbsp;ProxyCommand=nc -X 5 -x localhost:1088 %h %p
+ProxyCommand=nc -X 5 -x localhost:1088 %h %p
 
 ### Chrome
 open -na /Applications/Google\ Chrome.app --args --proxy-server="socks5://127.0.0.1:1088"
-
