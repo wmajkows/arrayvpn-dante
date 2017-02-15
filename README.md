@@ -2,7 +2,7 @@
 ArrayNetworksL3VPN client and Dante socks5 server
 
 ## Running:
-docker run -p 127.0.0.1:1088:1088 --cap-add=ALL -v /lib/modules:/lib/modules -v /dev:/dev -e ARRAY_PASSWORD=YOUR_ARRAY_PASSWORD -e ARRAY_USER=YOUR_ARRAY_USERNAME -e ARRAY_SERVER=YOUR_ARRAY_SERVER -d -ti devc00x/docker-array-dante
+docker run -p 127.0.0.1:1088:1088 --cap-add=ALL -v /lib/modules:/lib/modules -v /dev:/dev -e ARRAY_PASSWORD=YOUR_ARRAY_PASSWORD -e ARRAY_USER=YOUR_ARRAY_USERNAME -e ARRAY_SERVER=YOUR_ARRAY_SERVER -d -ti devc00x/arrayvpn-dante
 
 ## Usage (OSX) :
 ### Ssh:<br \>
