@@ -1,4 +1,4 @@
-# docker-array-dante
+# arrayvpn-dante
 ArrayNetworksL3VPN client and Dante socks5 server
 
 ## Running:
