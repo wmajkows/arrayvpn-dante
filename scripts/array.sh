@@ -17,6 +17,6 @@ done
 
 /usr/sbin/danted -f /etc/danted.conf -D
 
-/bin/ping -c 50 10.0.80.11 
+/bin/ping 10.0.80.11 
 
 /bin/bash
